@@ -8,7 +8,3 @@ Paplay is used to play the sound.
 
 # Usage
 1) Inside kwin scripts just activate the script Win audio.
-
-```
-sudo python3 keylogger.py 1 > keylogger.txt
-```
