@@ -8,3 +8,6 @@ Paplay is used to play the sound.
 
 # Usage
 1) Inside kwin scripts just activate the script Win audio.
+
+# Help
+It's important to observe that i made this script for my personal use, so any problem just contact me, and i will try to help.
