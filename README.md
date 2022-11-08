@@ -1,5 +1,5 @@
 # Install
-Place the folder inside /home/{your_user}/.local/share/kwin/scripts/
+Place the folder inside /home/{your_user}/.local/share/kwin/scripts/  
 Paplay is used to play the sound.
 
 # How it works
