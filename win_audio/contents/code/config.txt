@@ -1,0 +1,9 @@
+win_open_sound:"/usr/share/sounds/ubuntu/notifications/Blip.ogg",50
+win_close_sound:"/usr/share/sounds/ubuntu/stereo/bell.ogg",40
+win_max_sound:"/usr/share/sounds/Oxygen-Window-Maximize.ogg",90
+win_unmax_sound:"/usr/share/sounds/Oxygen-Window-Minimize.ogg",90
+win_min_sound:"/usr/share/sounds/Oxygen-Window-Minimize.ogg",90
+win_unmin_sound:"/usr/share/sounds/Oxygen-Window-Maximize.ogg",90
+win_res_sound:"",0
+win_active_sound:"",0
+desk_change_sound:"/usr/share/sounds/ubuntu/stereo/window-slide.ogg",40
