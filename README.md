@@ -3,7 +3,7 @@ Place the folder inside /home/{your_user}/.local/share/kwin/scripts/
 Paplay is used to play the sound.
 
 # How it works
-- config.txt is used to set the sound files and volume to the actions
+- Use the configuration button inside the kwin system pannel to configure the sounds and volume, needs to restart the system or the GUI to take effect
 - main.qml line 36 you have the paplay line, change if wanted
 
 # Usage
