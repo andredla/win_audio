@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+	<class>WinAudioConfigForm</class>
+	<widget class="QWidget" name="WinAudioConfigForm">
+		<layout class="QVBoxLayout" name="formLayout">
+			<!-- Inicio [QScrollArea] -->
+			<item>
+				<widget class="QScrollArea" name="formScrollArea">
+					<property name="widgetResizable">
+						<bool>true</bool>
+					</property>
+					<widget class="QWidget" name="formContentsScrollArea">
+						<layout class="QVBoxLayout" name="formLayoutScrollArea">
+							<!-- Inicio [WinOpenSound] -->
+							<item>
+								<widget class="QGroupBox" name="formGroup">
+									<property name="title">
+										<string>WinOpenSound</string>
+									</property>
+									<layout class="QGridLayout" name="formLayout">
+										<item row="0" column="0">
+											<widget class="QLabel" name="label_title">
+												<property name="text">
+													<string>Path</string>
+												</property>
+												<property name="alignment">
+													<set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+												</property>
+											</widget>
+										</item>
+										<item row="0" column="1">
+											<widget class="QLineEdit" name="kcfg_WinOpenSound">
+												<property name="text">
+													<string></string>
+												</property>
+											</widget>
+										</item>
+										<item row="1" column="0">
+											<widget class="QLabel" name="label_title">
+												<property name="text">
+													<string>Volume</string>
+												</property>
+												<property name="alignment">
+													<set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+												</property>
+											</widget>
+										</item>
+										<item row="1" column="1">
+											<widget class="QSlider" name="kcfg_WinOpenSoundVolume">
+												<property name="orientation">
+													<set>Qt::Horizontal</set>
+												</property>
+											</widget>
+										</item>
+									</layout>
+								</widget>
+							</item>
+							<!-- Fim [WinOpenSound] -->
+							<!-- Inicio [WinCloseSound] -->
+							<item>
+								<widget class="QGroupBox" name="formGroup">
+									<property name="title">
+										<string>WinCloseSound</string>
+									</property>
+									<layout class="QGridLayout" name="formLayout">
+										<item row="0" column="0">
+											<widget class="QLabel" name="label_title">
+												<property name="text">
+													<string>Path</string>
+												</property>
+												<property name="alignment">
+													<set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+												</property>
+											</widget>
+										</item>
+										<item row="0" column="1">
+											<widget class="QLineEdit" name="kcfg_WinCloseSound">
+												<property name="text">
+													<string></string>
+												</property>
+											</widget>
+										</item>
+										<item row="1" column="0">
+											<widget class="QLabel" name="label_title">
+												<property name="text">
+													<string>Volume</string>
+												</property>
+												<property name="alignment">
+													<set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+												</property>
+											</widget>
+										</item>
+										<item row="1" column="1">
+											<widget class="QSlider" name="kcfg_WinCloseSoundVolume">
+												<property name="orientation">
+													<set>Qt::Horizontal</set>
+												</property>
+											</widget>
+										</item>
+									</layout>
+								</widget>
+							</item>
+							<!-- Fim [WinCloseSound] -->
+							<!-- Inicio [WinMaxSound] -->
+							<item>
+								<widget class="QGroupBox" name="formGroup">
+									<property name="title">
+										<string>WinMaxSound</string>
+									</property>
+									<layout class="QGridLayout" name="formLayout">
+										<item row="0" column="0">
+											<widget class="QLabel" name="label_title">
+												<property name="text">
+													<string>Path</string>
+												</property>
+												<property name="alignment">
+													<set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+												</property>
+											</widget>
+										</item>
+										<item row="0" column="1">
+											<widget class="QLineEdit" name="kcfg_WinMaxSound">
+												<property name="text">
+													<string></string>
+												</property>
+											</widget>
+										</item>
+										<item row="1" column="0">
+											<widget class="QLabel" name="label_title">
+												<property name="text">
+													<string>Volume</string>
+												</property>
+												<property name="alignment">
+													<set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+												</property>
+											</widget>
+										</item>
+										<item row="1" column="1">
+											<widget class="QSlider" name="kcfg_WinMaxSoundVolume">
+												<property name="orientation">
+													<set>Qt::Horizontal</set>
+												</property>
+											</widget>
+										</item>
+									</layout>
+								</widget>
+							</item>
+							<!-- Fim [WinMaxSound] -->
+							<!-- Inicio [WinUnmaxSound] -->
+							<item>
+								<widget class="QGroupBox" name="formGroup">
+									<property name="title">
+										<string>WinUnmaxSound</string>
+									</property>
+									<layout class="QGridLayout" name="formLayout">
+										<item row="0" column="0">
+											<widget class="QLabel" name="label_title">
+												<property name="text">
+													<string>Path</string>
+												</property>
+												<property name="alignment">
+													<set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+												</property>
+											</widget>
+										</item>
+										<item row="0" column="1">
+											<widget class="QLineEdit" name="kcfg_WinUnmaxSound">
+												<property name="text">
+													<string></string>
+												</property>
+											</widget>
+										</item>
+										<item row="1" column="0">
+											<widget class="QLabel" name="label_title">
+												<property name="text">
+													<string>Volume</string>
+												</property>
+												<property name="alignment">
+													<set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+												</property>
+											</widget>
+										</item>
+										<item row="1" column="1">
+											<widget class="QSlider" name="kcfg_WinUnmaxSoundVolume">
+												<property name="orientation">
+													<set>Qt::Horizontal</set>
+												</property>
+											</widget>
+										</item>
+									</layout>
+								</widget>
+							</item>
+							<!-- Fim [WinUnmaxSound] -->
+							<!-- Inicio [WinMinSound] -->
+							<item>
+								<widget class="QGroupBox" name="formGroup">
+									<property name="title">
+										<string>WinMinSound</string>
+									</property>
+									<layout class="QGridLayout" name="formLayout">
+										<item row="0" column="0">
+											<widget class="QLabel" name="label_title">
+												<property name="text">
+													<string>Path</string>
+												</property>
+												<property name="alignment">
+													<set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+												</property>
+											</widget>
+										</item>
+										<item row="0" column="1">
+											<widget class="QLineEdit" name="kcfg_WinMinSound">
+												<property name="text">
+													<string></string>
+												</property>
+											</widget>
+										</item>
+										<item row="1" column="0">
+											<widget class="QLabel" name="label_title">
+												<property name="text">
+													<string>Volume</string>
+												</property>
+												<property name="alignment">
+													<set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+												</property>
+											</widget>
+										</item>
+										<item row="1" column="1">
+											<widget class="QSlider" name="kcfg_WinMinSoundVolume">
+												<property name="orientation">
+													<set>Qt::Horizontal</set>
+												</property>
+											</widget>
+										</item>
+									</layout>
+								</widget>
+							</item>
+							<!-- Fim [WinMinSound] -->
+							<!-- Inicio [WinUnminSound] -->
+							<item>
+								<widget class="QGroupBox" name="formGroup">
+									<property name="title">
+										<string>WinUnminSound</string>
+									</property>
+									<layout class="QGridLayout" name="formLayout">
+										<item row="0" column="0">
+											<widget class="QLabel" name="label_title">
+												<property name="text">
+													<string>Path</string>
+												</property>
+												<property name="alignment">
+													<set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+												</property>
+											</widget>
+										</item>
+										<item row="0" column="1">
+											<widget class="QLineEdit" name="kcfg_WinUnminSound">
+												<property name="text">
+													<string></string>
+												</property>
+											</widget>
+										</item>
+										<item row="1" column="0">
+											<widget class="QLabel" name="label_title">
+												<property name="text">
+													<string>Volume</string>
+												</property>
+												<property name="alignment">
+													<set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+												</property>
+											</widget>
+										</item>
+										<item row="1" column="1">
+											<widget class="QSlider" name="kcfg_WinUnminSoundVolume">
+												<property name="orientation">
+													<set>Qt::Horizontal</set>
+												</property>
+											</widget>
+										</item>
+									</layout>
+								</widget>
+							</item>
+							<!-- Fim [WinUnminSound] -->
+							<!-- Inicio [WinResSound] -->
+							<item>
+								<widget class="QGroupBox" name="formGroup">
+									<property name="title">
+										<string>WinResSound</string>
+									</property>
+									<layout class="QGridLayout" name="formLayout">
+										<item row="0" column="0">
+											<widget class="QLabel" name="label_title">
+												<property name="text">
+													<string>Path</string>
+												</property>
+												<property name="alignment">
+													<set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+												</property>
+											</widget>
+										</item>
+										<item row="0" column="1">
+											<widget class="QLineEdit" name="kcfg_WinResSound">
+												<property name="text">
+													<string></string>
+												</property>
+											</widget>
+										</item>
+										<item row="1" column="0">
+											<widget class="QLabel" name="label_title">
+												<property name="text">
+													<string>Volume</string>
+												</property>
+												<property name="alignment">
+													<set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+												</property>
+											</widget>
+										</item>
+										<item row="1" column="1">
+											<widget class="QSlider" name="kcfg_WinResSoundVolume">
+												<property name="orientation">
+													<set>Qt::Horizontal</set>
+												</property>
+											</widget>
+										</item>
+									</layout>
+								</widget>
+							</item>
+							<!-- Fim [WinResSound] -->
+							<!-- Inicio [WinActiveSound] -->
+							<item>
+								<widget class="QGroupBox" name="formGroup">
+									<property name="title">
+										<string>WinActiveSound</string>
+									</property>
+									<layout class="QGridLayout" name="formLayout">
+										<item row="0" column="0">
+											<widget class="QLabel" name="label_title">
+												<property name="text">
+													<string>Path</string>
+												</property>
+												<property name="alignment">
+													<set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+												</property>
+											</widget>
+										</item>
+										<item row="0" column="1">
+											<widget class="QLineEdit" name="kcfg_WinActiveSound">
+												<property name="text">
+													<string></string>
+												</property>
+											</widget>
+										</item>
+										<item row="1" column="0">
+											<widget class="QLabel" name="label_title">
+												<property name="text">
+													<string>Volume</string>
+												</property>
+												<property name="alignment">
+													<set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+												</property>
+											</widget>
+										</item>
+										<item row="1" column="1">
+											<widget class="QSlider" name="kcfg_WinActiveSoundVolume">
+												<property name="orientation">
+													<set>Qt::Horizontal</set>
+												</property>
+											</widget>
+										</item>
+									</layout>
+								</widget>
+							</item>
+							<!-- Fim [WinActiveSound] -->
+							<!-- Inicio [DeskChangeSound] -->
+							<item>
+								<widget class="QGroupBox" name="formGroup">
+									<property name="title">
+										<string>DeskChangeSound</string>
+									</property>
+									<layout class="QGridLayout" name="formLayout">
+										<item row="0" column="0">
+											<widget class="QLabel" name="label_title">
+												<property name="text">
+													<string>Path</string>
+												</property>
+												<property name="alignment">
+													<set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+												</property>
+											</widget>
+										</item>
+										<item row="0" column="1">
+											<widget class="QLineEdit" name="kcfg_DeskChangeSound">
+												<property name="text">
+													<string></string>
+												</property>
+											</widget>
+										</item>
+										<item row="1" column="0">
+											<widget class="QLabel" name="label_title">
+												<property name="text">
+													<string>Volume</string>
+												</property>
+												<property name="alignment">
+													<set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+												</property>
+											</widget>
+										</item>
+										<item row="1" column="1">
+											<widget class="QSlider" name="kcfg_DeskChangeSoundVolume">
+												<property name="orientation">
+													<set>Qt::Horizontal</set>
+												</property>
+											</widget>
+										</item>
+									</layout>
+								</widget>
+							</item>
+							<!-- Fim [DeskChangeSound] -->
+						</layout>
+					</widget>
+				</widget>
+			</item>
+			<!-- Fim [QScrollArea] -->
+		</layout>
+	</widget>
+	<resources/>
+	<connections/>
+</ui>

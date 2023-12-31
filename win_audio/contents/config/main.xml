@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+  <kcfgfile name=""/>
+  <group name="">
+    <entry name="WinOpenSound" type="string">
+      <label>win_open_sound</label>
+      <default>/usr/share/sounds/ubuntu/notifications/Blip.ogg</default>
+    </entry>
+    <entry name="WinOpenSoundVolume" type="int">
+      <label>win_open_sound_volume</label>
+      <default>50</default>
+    </entry>
+    <entry name="WinCloseSound" type="string">
+      <label>win_close_sound</label>
+      <default>/usr/share/sounds/ubuntu/stereo/bell.ogg</default>
+    </entry>
+    <entry name="WinCloseSoundVolume" type="int">
+      <label>win_close_sound_volume</label>
+      <default>40</default>
+    </entry>
+    <entry name="WinMaxSound" type="string">
+      <label>win_max_sound</label>
+      <default>/usr/share/sounds/Oxygen-Window-Maximize.ogg</default>
+    </entry>
+    <entry name="WinMaxSoundVolume" type="int">
+      <label>win_max_sound_volume</label>
+      <default>90</default>
+    </entry>
+    <entry name="WinUnmaxSound" type="string">
+      <label>win_unmax_sound</label>
+      <default>/usr/share/sounds/Oxygen-Window-Minimize.ogg</default>
+    </entry>
+    <entry name="WinUnmaxSoundVolume" type="int">
+      <label>win_unmax_sound_volume</label>
+      <default>90</default>
+    </entry>
+    <entry name="WinMinSound" type="string">
+      <label>win_min_sound</label>
+      <default>/usr/share/sounds/Oxygen-Window-Minimize.ogg</default>
+    </entry>
+    <entry name="WinMinSoundVolume" type="int">
+      <label>win_min_sound_volume</label>
+      <default>90</default>
+    </entry>
+    <entry name="WinUnminSound" type="string">
+      <label>win_unmin_sound</label>
+      <default>/usr/share/sounds/Oxygen-Window-Maximize.ogg</default>
+    </entry>
+    <entry name="WinUnminSoundVolume" type="int">
+      <label>win_unmin_sound_volume</label>
+      <default>90</default>
+    </entry>
+    <entry name="WinResSound" type="string">
+      <label>win_res_sound</label>
+      <default></default>
+    </entry>
+    <entry name="WinResSoundVolume" type="int">
+      <label>win_res_sound_volume</label>
+      <default>0</default>
+    </entry>
+    <entry name="WinActiveSound" type="string">
+      <label>win_active_sound</label>
+      <default></default>
+    </entry>
+    <entry name="WinActiveSoundVolume" type="int">
+      <label>win_active_sound_volume</label>
+      <default>0</default>
+    </entry>
+    <entry name="DeskChangeSound" type="string">
+      <label>desk_change_sound</label>
+      <default>/usr/share/sounds/ubuntu/stereo/window-slide.ogg</default>
+    </entry>
+    <entry name="DeskChangeSoundVolume" type="int">
+      <label>desk_change_sound_volume</label>
+      <default>40</default>
+    </entry>
+  </group>
+</kcfg>
